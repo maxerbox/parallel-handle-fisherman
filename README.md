@@ -54,4 +54,5 @@ Append a middleware to the Parallel Handler
 ## Badge
 
 It's a simple badge to show that your middleware is compatible with the Parallel Handler
+
 ![badge](https://github.com/maxerbox/parallel-handle-fisherman/blob/master/badge.png)
