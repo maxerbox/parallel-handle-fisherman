@@ -1,0 +1,21 @@
+{
+  "name": "parallel-promise-handle-fisherman",
+  "version": "1.0.0",
+  "description": "A parallel middleware handler, usign async",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fisherman",
+    "parallel",
+    "promise",
+    "middleware",
+    "handle"
+  ],
+  "author": "Simon Sassi/Maxerbox",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0"
+  }
+}
