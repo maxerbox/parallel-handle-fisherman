@@ -1,6 +1,6 @@
 {
   "name": "parallel-handle-fisherman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A parallel middleware handler, usign async",
   "main": "lib/index.js",
   "scripts": {
@@ -17,5 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "async": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxerbox/parallel-handle-fisherman.git"
   }
 }
