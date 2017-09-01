@@ -43,6 +43,22 @@ A simple object, with two properties:
 
 A function that call back, where you can pass an error with `callback(err)`. You can of course pass `true` if you want to just block the middleware chain and don't trigger any fishercode
 
+### setUp() handling (^1.0.3)
+
+Since the 1.0.3 version, the setUp handling is available. It's almost same as the Fisherman default setUp handler, but for reference reason, the client is inside a `container`
+
+Example
+
+```javascript
+setUp(container, next) {
+    var client = container.client
+    console.log(client)
+    next()
+
+    next(new Error('throwing an error')) // you can also pass an error
+}
+```
+
 ### The callback as to be trigerred, else, the middleware loop will be blocked
 
 ## Api
